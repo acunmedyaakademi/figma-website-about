@@ -5,14 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/about.css">
+    <script src="assets/js/hamburgerMenu.js" defer></script>
     <title>About us</title>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <div class="header-inner">
-                <a href="about.html"><img src="assets/logo/lookscout-logo.svg" alt="lookscout-logo"></a>
-                <a href="#"><img src="assets/logo/burger-menu.svg" alt=""></a>
+                <span class="header-inner-left">
+                    <a href="about.html"><img class="brand-logo" src="assets/logo/lookscout-logo.svg" alt="lookscout-logo"></a>
+                    <ul class="header-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Our Products</a></li>
+                    <li><a href="#" class="left-resource">Resources <img src="assets/icon/down-icon-black.svg" alt=""></a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                </span>
+                <span class="header-buttons header-links-buttons">
+                    <a href="#" class="sign-up">Sign Up</a>
+                    <a href="#" class="log-in">Log In</a>
+                </span>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Our Products</a></li>
+                    <li class="nav-item"> <a href="#" class="nav-resource nav-link">Resources<img src="assets/icon/down-icon-black.svg" alt=""></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacts</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                    <span class="bar"> </span>
+                </div>
             </div>
         </div>
         <div class="hero">
