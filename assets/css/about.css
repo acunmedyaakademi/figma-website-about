@@ -13,7 +13,7 @@ text-decoration: none;
 }
 .container{
     margin: 0 auto;
-    width: 100%;
+    width: 375px;
 }
 /*Header started*/
 .header{
@@ -55,7 +55,7 @@ width: 100%;
 } 
 .hamburger{
     position: absolute;
-    top: 10px; /* Açıkça görünen hamburger butonu */
+    top: 10px; 
     right: 10px;
     cursor: pointer;
 }
@@ -81,7 +81,7 @@ width: 100%;
     position: fixed;
     right: 0;
     width: 45%;
-    top: -100%; /* Menüyü ekranın üstünden başlat */
+    top: -100%;  
     text-align: center;
     transition: 0.3s;
     background-color: #f8f9fb;
@@ -175,13 +175,25 @@ width: 100%;
     padding: 32px 16px;
     gap: 32px;
 }
-.features-inner h4{
+
+.inner-top-texts h4{
+    text-align: center;
     color: #272D37;
     font-size: 24px;
     font-weight: 700;
     line-height: 32px; /* 133.333% */
     letter-spacing: -0.48px; 
 }
+.inner-top-texts h5{
+    color:#5F6D7E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.1px; 
+    padding-top: 16px;
+    display: none;
+}
+
 .features-content{
     display: flex;
     flex-direction: column;
@@ -803,11 +815,14 @@ width: 100%;
     .features-inner{
         gap: 64px;
     }
-    .features-inner h4{
+    .inner-top-texts h4{
         font-size: 32px;
         font-weight: 700;
         line-height: 40px; /* 125% */
         letter-spacing: -0.64px; 
+    }
+    .inner-top-texts h5{
+        display: block;
     }
 .features-content-right{
      display: none;
