@@ -13,14 +13,14 @@ a{
 }
 .container{
     margin: 0 auto;
-    width: 375px;
+    width: 100%;
 }
 /*Header started*/
 .header{
     margin: 0 auto;
     border-bottom: 1px solid #EAEBF0;
     background-color: #fff;
-    width: 375px;
+    width: 100%;
     
 }
 .header-inner{
