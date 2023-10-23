@@ -6,10 +6,10 @@
 }
 *{list-style: none;}
 body {
-  font-family: 'Inter', sans-serif;
+font-family: 'Inter', sans-serif;
 }
 a{
-    text-decoration: none;
+text-decoration: none;
 }
 .container{
     margin: 0 auto;
@@ -17,10 +17,10 @@ a{
 }
 /*Header started*/
 .header{
-    margin: 0 auto;
-    border-bottom: 1px solid #EAEBF0;
-    background-color: #fff;
-    width: 100%;
+ margin: 0 auto;
+border-bottom: 1px solid #EAEBF0;
+background-color: #fff;
+width: 100%;
     
 }
 .header-inner{
@@ -46,13 +46,13 @@ a{
     color: #272D37;
     font-size: 15px;
     font-weight: 600;
-line-height: 22px; /* 146.667% */ 
+    line-height: 22px; /* 146.667% */ 
 }
 
 
-/* .header-links,.header-links-buttons{
+.header-links,.header-links-buttons{
     display: none;
-} */
+} 
 .hamburger{
     position: absolute;
     top: 10px; /* Açıkça görünen hamburger butonu */
@@ -755,7 +755,6 @@ line-height: 22px; /* 146.667% */
 /** 376px & 768 END   **/
 
 
-
 /*min-769*/
 @media (width > 769px) {
     .container{
@@ -763,11 +762,14 @@ line-height: 22px; /* 146.667% */
         margin: 0 auto;
     }
     .header{
-        width: 1440px;
+        width: 100%;
     }
     .header-buttons,.header-links{
         display: flex;
-        width: 190px;
+
+    }
+    .header-buttons{
+        width: 185px;
     }
     .header-inner{
         padding: 32px;
